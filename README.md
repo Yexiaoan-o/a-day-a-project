@@ -1,4 +1,4 @@
-# # 说明
+# 说明
 
 本仓库记录纯HTML+CSS+JavaScript项目，一天一个。
 
