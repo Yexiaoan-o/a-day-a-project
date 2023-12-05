@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Expense Tracker</title>
+</head>
+<body class="flex">
+  <div class="container flex">
+  <h2>Expense Tracker</h2>
+
+  <div class="balance-container flex">
+    <span>YOUR BALANCE</span>
+    <small id="balance">$0.00</small>
+  </div>
+
+  <div class="total-container">
+    <div class="income flex">
+      <span>INCOME</span>
+      <small id="income" class="green-text">$0.00</small>
+    </div>
+    <div class="expense flex">
+      <span>EXPENSE</span>
+      <small id="expense" class="red-text">$0.00</small>
+    </div>
+  </div>
+
+    <div class="history-container">
+      <h3>History</h3>
+      <div class="record-container flex">
+        <!-- <div class="record green-border">
+          <div class="delete">×</div>
+          <span>salary</span>
+          <small>+111</small>
+        </div>
+        <div class="record red-border">
+          <div class="delete">×</div>
+          <span>salary</span>
+          <small>+111</small>
+        </div> -->
+      </div>
+
+    </div>
+
+    <div class="add-form flex">
+      <h3>Add New Transaction</h3>
+      <form class="form flex">
+        <label>Text</label>
+        <input id="text" type="text" placeholder="Enter transaction details">
+        <label>Amount (negative-expense, positive-income)</label>
+        <input id="amount" type="number" placeholder="Enter amount">
+        <button id="add">Add Transaction</button>
+      </form>
+    </div>
+
+  
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

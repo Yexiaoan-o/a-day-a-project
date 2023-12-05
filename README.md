@@ -17,3 +17,7 @@
 03 New Year Countdown  
 知识点：Date()构造函数的使用
 
+## 2023年12月4日
+
+04 Expense Tracker
+知识点：localStorage、filter()、reduce()、forEach()、删除DOM节点的逻辑
